@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "client_id=TLdgmA3FVAoTJYu7Ue45Dw6HzPQvQ8qzoC0zC2TR&client_secret=GZh4q9hilvqELsK6mC1EqRJZJ9njFe7fUpEIRyNd7qVQIhJFcmFHNZ4SsZ3KdReWpMtVFPnok9iNEhq4vY77XUTKQyaYaCMZr5wTX93jZnSFffsRR0cJLep8GjQRDgKw&code=MAT1RaOpfvyuovJW1dCrm5iKh2EdRz&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A4000",
+      "headers": {
+        "content-type": "application/x-www-form-urlencoded",
+        "accept": "application/json"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://megazord.geeny.io/connect/oauth2-provider/token/"
+    },
+    "response": {
+      "body": "{\"access_token\": \"TKRETKg0s6hgORy5YVE9d8zfea5QcO\", \"expires_in\": 36000, \"token_type\": \"Bearer\", \"scope\": \"read write\", \"refresh_token\": \"Qyg7LEnWyKYXCqZFyfoXHM1tQ57sNy\"}",
+      "headers": {
+        "Server": "nginx/1.10.2",
+        "Date": "Thu, 20 Jul 2017 12:09:30 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "169",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding",
+        "Cache-Control": "no-store",
+        "Pragma": "no-cache",
+        "X-Frame-Options": "SAMEORIGIN",
+        "strict-transport-security": "max-age=31536000; includeSubDomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

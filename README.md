@@ -1,4 +1,4 @@
-# Geeny App Broker Client for Elixir
+# Geeny Connect Client for Elixir
 
 ## Introduction
 
